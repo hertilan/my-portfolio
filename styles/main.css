@@ -1,0 +1,106 @@
+/* Landing page */
+
+.my-info
+{
+    display: flex;
+    gap: 100px
+}
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.my-info .intro .name
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.my-info .intro .name span
+{
+    color: rgb(17, 0, 255);
+}
+
+.my-info .intro .descri
+{
+    text-align: justify;
+    line-height: 30px;
+    font-size: auto;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.Resume, .Contact-me
+{
+    height: 40px; 
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Resume
+{
+    background-color: rgba(17, 0, 255, 0.8);
+    color: white;
+    transition: background-color 0.15s ease;
+}
+
+.Resume:hover
+{
+    background-color: rgba(17, 0, 255, 0.7);
+}
+
+
+
+.Contact-me
+{
+    border: 1px solid rgba(17, 0, 255, 0.8);
+    transition: background-color 0.15s ease;
+}
+
+.Contact-me:hover
+{
+    background-color: rgb(220, 220, 220);  
+}
+
+.photo img
+{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    box-shadow: 1px 5px 10px  rgba(0, 0, 0, 0.4);
+}
+
+
+/* About */
+
+#About
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 150px;
+    /* margin-bottom: 200px; */
+
+}
+
+#About span
+{
+    font-size: 50px;
+    color: rgb(17, 0, 255);
+    font-weight: 500;
+}
+
+#About p
+{
+    line-height: 30px;
+    font-size: auto;
+    text-align: justify;
+    margin-top: 1px;
+}
